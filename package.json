@@ -1,0 +1,42 @@
+{
+  "name": "@b2data/wallet-demo-dapp",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "vite --force",
+    "clean": "vite clean",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "test": "tsc --noEmit --project .",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|tsx|json)\""
+  },
+  "author": "Nikolai Turov",
+  "license": "MIT",
+  "dependencies": {
+    "@b2data/tonconnect-ui-react": "2.0.15",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-json-view": "^1.21.3"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "@eslint/js": "^9.22.0",
+    "@types/ramda": "^0.30.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react-swc": "^3.6.0",
+    "eslint": "^9.22.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.36.0",
+    "prettier": "^3.2.5",
+    "sass": "^1.85.1",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.5.0",
+    "vite": "6.2.1",
+    "vite-plugin-node-polyfills": "^0.23.0",
+    "vite-tsconfig-paths": "5.1.4"
+  }
+}
