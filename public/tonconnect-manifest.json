@@ -1,6 +1,7 @@
 {
-  "url": "https://b2data.github.io/wallet-demo-dapp",
+  "url": "https://b2data.github.io/wallet-demo-dapp/",
   "name": "Demo Dapp with wallet",
+  "iconUrl": "https://raw.githubusercontent.com/b2data/dapp/main/icon192.png",
   "termsOfUseUrl": "https://b2data.github.io/wallet-demo-dapp/terms-of-use.txt",
   "privacyPolicyUrl": "https://b2data.github.io/wallet-demo-dapp/privacy-policy.txt"
 }
