@@ -10,7 +10,7 @@ import { SignForm } from "../SignForm/SignForm";
 export const App: FC = () => {
   return (
     <TonConnectUIProvider
-      manifestUrl="https://b2data.github.io/wallet/tonconnect-manifest.json"
+      manifestUrl="https://b2data.github.io/wallet-demo-dapp/tonconnect-manifest.json"
       uiPreferences={{ theme: THEME.DARK }}
       walletsListSource="https://raw.githubusercontent.com/b2data/dapp/refs/heads/main/wallets-list.json"
       walletsListConfiguration={{
