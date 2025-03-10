@@ -23,7 +23,7 @@ const defaultData: SignDataRequest = {
    * If publicKey parameter is set, the wallet SHOULD to sign by keypair corresponding this public key;
    * If sign by this specified keypair is impossible, the wallet should show an alert and DO NOT ALLOW TO SIGN this data.
    */
-  publicKey: undefined,
+  // publicKey: undefined,
 };
 
 export const SignForm = () => {
