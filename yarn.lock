@@ -10,28 +10,28 @@
     tweetnacl "^1.0.3"
     tweetnacl-util "^0.15.1"
 
-"@b2data/tonconnect-sdk@3.0.8":
-  version "3.0.8"
-  resolved "https://npm.pkg.github.com/download/@b2data/tonconnect-sdk/3.0.8/6fc2c3f4eabcc744818ce95a0d0d90f4fbc78c67#6fc2c3f4eabcc744818ce95a0d0d90f4fbc78c67"
-  integrity sha512-3QECbFK2tTbuqN7plqWf9DRwe7HFUd6JXCw/XfXPngy1yUjrfy1H7v8pPh9F3iv7/jCZGP2LCt9Kcr8vhLZ0kA==
+"@b2data/tonconnect-sdk@3.0.13":
+  version "3.0.13"
+  resolved "https://npm.pkg.github.com/download/@b2data/tonconnect-sdk/3.0.13/e87a4f0bd05e348d5d48b1de9eafffc8b7a16f30#e87a4f0bd05e348d5d48b1de9eafffc8b7a16f30"
+  integrity sha512-bdGz+wT7Y9qTIf9eHsGRBw5/HfZLtbXlyxuiIrB9adk2nQvdfrjMl4y08xZMnosu8roiXY67XL7slO61GxOYGA==
   dependencies:
     "@b2data/tonconnect-protocol" "^2.2.7"
     "@tonconnect/isomorphic-eventsource" "^0.0.2"
     "@tonconnect/isomorphic-fetch" "^0.0.3"
 
-"@b2data/tonconnect-ui-react@2.0.15":
-  version "2.0.15"
-  resolved "https://npm.pkg.github.com/download/@b2data/tonconnect-ui-react/2.0.15/0bbe056c99a9cc200750656000cf59146479a77f#0bbe056c99a9cc200750656000cf59146479a77f"
-  integrity sha512-JJXHp4AmnP3bWx/9T9uCcIiuVbWFu1r0Aza0ADkDAsi8Y9kyIF3Sy++KnkBSEwCl1VqiU0eiVsTwfffS2FlJCw==
+"@b2data/tonconnect-ui-react@2.0.26":
+  version "2.0.26"
+  resolved "https://npm.pkg.github.com/download/@b2data/tonconnect-ui-react/2.0.26/3610500007e02bbae4dbffce6c5024633a9b95f5#3610500007e02bbae4dbffce6c5024633a9b95f5"
+  integrity sha512-q8auGQRnqwvh5bEyllonGYcCOF764u3AwGX2mGoPRPoI9z2P0Y9xtDJbVWra9pL2EYjh+YfJrhxmXKkIvHId7Q==
   dependencies:
-    "@b2data/tonconnect-ui" "2.0.15"
+    "@b2data/tonconnect-ui" "2.0.26"
 
-"@b2data/tonconnect-ui@2.0.15":
-  version "2.0.15"
-  resolved "https://npm.pkg.github.com/download/@b2data/tonconnect-ui/2.0.15/0b1e1f39aea7fbd0d5a10b1a71a5265d28d4edf6#0b1e1f39aea7fbd0d5a10b1a71a5265d28d4edf6"
-  integrity sha512-Dk3P5t1a6EA25tpPc9AaFjDReLWQ/JlxfoKkgIdvGidIgOfXt6OQKnZGiOLxDz2UT+oVP+N6KgUuLopJbq1N/w==
+"@b2data/tonconnect-ui@2.0.26":
+  version "2.0.26"
+  resolved "https://npm.pkg.github.com/download/@b2data/tonconnect-ui/2.0.26/6c38d299fb4cdfb404150b2fa781e7da075389fc#6c38d299fb4cdfb404150b2fa781e7da075389fc"
+  integrity sha512-A/m4qERat6390msFwl0KPiL+8G8jauRmmyj4r7GzxDAiLv+3HKgECmCo09DerYSl+s5Pf5kAZ1emA9z6o0dgNA==
   dependencies:
-    "@b2data/tonconnect-sdk" "3.0.8"
+    "@b2data/tonconnect-sdk" "3.0.13"
     classnames "^2.3.2"
     csstype "^3.1.1"
     deepmerge "^4.2.2"

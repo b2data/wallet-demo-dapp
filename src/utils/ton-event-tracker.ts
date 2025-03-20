@@ -12,8 +12,7 @@ const logEvent = (scope: string): ((event: Event) => void) => {
   };
 };
 
-const tonConnectUiPrefix = "ton-connect-ui-";
-const tonConnectUiEvents = [
+const eventsArr = [
   "request-version",
   "response-version",
   "connection-started",
@@ -25,26 +24,16 @@ const tonConnectUiEvents = [
   "transaction-sent-for-signature",
   "transaction-signed",
   "transaction-signing-failed",
+  "data-sent-for-signature",
+  "data-signed",
+  "data-signing-failed",
   "disconnection",
-].map((event) => `${tonConnectUiPrefix}${event}`);
+];
 
-const tonConnectPrefix = "ton-connect-";
-const tonConnectEvents = [
-  "request-version",
-  "response-version",
-  "connection-started",
-  "connection-completed",
-  "connection-error",
-  "connection-restoring-started",
-  "connection-restoring-completed",
-  "connection-restoring-error",
-  "transaction-sent-for-signature",
-  "transaction-signed",
-  "transaction-signing-failed",
-  "disconnection",
-].map((event) => `${tonConnectPrefix}${event}`);
-
-const events = [...tonConnectUiEvents, ...tonConnectEvents];
+const events = [
+  ...eventsArr.map((event) => `ton-connect-ui-${event}`),
+  ...eventsArr.map((event) => `ton-connect-${event}`),
+];
 
 for (const event of events) {
   try {

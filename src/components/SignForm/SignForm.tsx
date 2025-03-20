@@ -14,9 +14,12 @@ const defaultData: SignDataRequest = {
    */
   schema_crc: 0x754bf91b, // Normal text
   /**
-   *  (string, base64 encoded Cell): contains arbitrary data per its TL-B definition.
+   *  (array of string, base64 encoded Cell): contains arbitrary data per its TL-B definition.
    */
-  cell: "te6ccsEBAQEAEAAAABxUZXN0IFNpZ24gRGF0YcY8Qsc=",
+  cells: [
+    "te6ccsEBAQEAEAAAABxUZXN0IFNpZ24gRGF0YcY8Qsc=",
+    "te6ccsEBAQEAEAAAABxUZXN0IFNpZ24gRGF0YcY8Qsc=",
+  ],
   /**
    * (HEX string without 0x, optional): The public key of key pair from which DApp intends to sign the data.
    * If not set, the wallet is not limited in what keypair to sign.

@@ -1,6 +1,6 @@
 {
   "name": "@b2data/wallet-demo-dapp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "scripts": {
     "start": "vite --force",
@@ -15,7 +15,7 @@
   "author": "Nikolai Turov",
   "license": "MIT",
   "dependencies": {
-    "@b2data/tonconnect-ui-react": "2.0.15",
+    "@b2data/tonconnect-ui-react": "2.0.26",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-json-view": "^1.21.3"
